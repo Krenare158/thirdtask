@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.popup-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+@media (max-width: 600px) {
+  .popup-button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
